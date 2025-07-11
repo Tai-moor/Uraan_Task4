@@ -1,0 +1,133 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        color: #000;
+        min-width: 850px;
+        width: 100%;
+      }
+
+      .header {
+        background-color: #98242a;
+        color: white;
+        position: relative;
+      }
+
+      .header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-right: 120px solid #ffffff;
+        border-top: 120px solid transparent;
+      }
+
+      .header-content {
+        padding-bottom: 80px;
+      }
+
+      .logo {
+        width: 200px;
+        margin-right: 20px;
+      }
+
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 100px;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        color: #000;
+        margin-bottom: 30px;
+      }
+
+      .header p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.6;
+        color: #f1e4e2;
+        margin-bottom: 16px;
+      }
+
+      .main-content {
+        padding: 40px 20px;
+      }
+
+      .club-section {
+        margin-bottom: 40px;
+      }
+
+      .club-section h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 65px;
+        font-weight: 900;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        margin: 0 0 30px 40px;
+        padding-left: 60px;
+        position: relative;
+      }
+
+      .club-section h3::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-right: 42px solid #98242a;
+        border-top: 42px solid transparent;
+      }
+
+      .club img {
+        width: 160px;
+        height: auto;
+      }
+
+      .top-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #98242a;
+      }
+
+      .bottom-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .footer {
+        background-color: #98242a;
+        color: white;
+        padding: 110px 80px;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 1;
+        position: relative;
+      }
+
+      .footer::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-right: 120px solid #ffffff;
+        border-top: 120px solid transparent;
+      }
